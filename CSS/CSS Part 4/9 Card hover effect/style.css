@@ -8,7 +8,7 @@
     box-shadow: 0 4px 8px black;
     transition: 2s;
 }
-
+/* What i found is it look good in landscape image not potrate */
 .desc {
     padding: 0 2px 0 2px;
     
@@ -20,5 +20,5 @@ img {
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px goldenrod;
+    box-shadow: 0 8px 16px black;
 }
