@@ -13,8 +13,8 @@
     column-gap: 10px; */
     grid-gap: 10px;
     /* justify-items: center;
-    align-items: center;
-} */
+    align-items: center; */
+} 
 
 .one {
     place-self: start;
