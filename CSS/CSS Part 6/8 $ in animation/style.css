@@ -27,14 +27,14 @@
 }
 
 @keyframes widthAnimate {
-    from {
-        width: 10px;
+    0% {
         background-color: green;
     }
-    to {
-        width: 400px;
+    50% {
         background-color: blue;
-        border-radius: 15px;
+    }
+    100% {
+        background-color: red;
     }
     
 }
