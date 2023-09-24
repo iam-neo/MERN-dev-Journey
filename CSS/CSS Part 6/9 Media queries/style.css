@@ -21,3 +21,9 @@ h1 {
         background-color: pink;
     }
 }
+
+@media (min-width:200px) and (max-width:300px) {
+    h1 {
+        background-color: magenta;
+    }
+}
