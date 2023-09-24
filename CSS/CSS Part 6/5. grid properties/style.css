@@ -7,12 +7,23 @@
     grid-template-columns: 200px 200px 200px; */
     /* grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(3, 1fr); */
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: repeat(3, 1fr);
     /* row-gap: 10px;
     column-gap: 10px; */
     grid-gap: 10px;
+    /* justify-items: center;
+    align-items: center;
+} */
+
+.one {
+    place-self: start;
 }
+
+/* .one {
+    justify-self: end;
+    align-self: end;
+} */
 
 .item {
     width: 100px;
